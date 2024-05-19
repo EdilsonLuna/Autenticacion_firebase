@@ -1,12 +1,12 @@
 Proyecto para poder registrar y loggear usuarios usando autenticación con Firebase.
-###Endpoints
-###GET
+### Endpoints
+### GET
 
 `/api/downloadExcel`
 
 Este va a descargar un formato de excel con datos quemados que pueden ser cambiados luego.
 
-###POST
+### POST
 1.  `/api/registerNewUser`
 
 	Con este endpoint se va a poder registrar un usuario mediante su correo y contraseña. Estos deben enviarse en el body de la peticion http.
@@ -34,10 +34,10 @@ Este va a descargar un formato de excel con datos quemados que pueden ser cambia
 
 	Los datos son enviados y han sido verificados en firebase
 
-###Despliegue del proyecto
-#####1.Frontend:
+### Despliegue del proyecto
+##### 1.Frontend:
 Para el frontend se puede usar el liveReload que ofrece Visual Studio Code o algún similar, ya que solo se compone de una página con contenido estático.
-#####2.Backend:
+##### 2.Backend:
 Entrar a la carpeta *firebaseApi* y dentro de una terminal ejecutar el comando:
 
 	npm install
