@@ -11,7 +11,7 @@ Este va a descargar un formato de excel con datos quemados que pueden ser cambia
 
 	Con este endpoint se va a poder registrar un usuario mediante su correo y contraseña. Estos deben enviarse en el body de la peticion http.
 
-	####Codigos de respuesta
+	#### Codigos de respuesta
 	`404 Bad request`
 
 	Los datos del correo o de la contraseña son incorrectos
@@ -25,7 +25,7 @@ Este va a descargar un formato de excel con datos quemados que pueden ser cambia
 
 	Con este endpoint un usuario ya registrado podrá loggearse mediante su correo y contraseña. Estos deben enviarse en el body de la peticion http.
 
-	####Codigos de respuesta
+	#### Codigos de respuesta
 	`404 Bad request`
 
 	Los datos del correo o de la contraseña son incorrectos
