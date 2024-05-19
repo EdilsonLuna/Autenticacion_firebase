@@ -26,7 +26,6 @@ btnLogin.addEventListener('click',(e)=>{
             fetch('http://localhost:4000/api/loginUser',requestOptions)
                 .then(response => response.json())
                 .then(data =>{
-                    console.log("data",data);
                     if(data.status != "ok"){
                         if(data.message.code == "auth/invalid-credential"){
                             alert("Correo o contraseña incorrectas. Intente nuevamente");

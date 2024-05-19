@@ -26,7 +26,6 @@ btnRegister.addEventListener('click',(e)=>{
             fetch('http://localhost:4000/api/registerNewUser',requestOptions)
                 .then(response => response.json())
                 .then(data =>{
-                    console.log("data",data);
                     if(data.status != "ok"){
                         if(data.message.code == "auth/weak-password"){
                             alert("La contraseña ingresada es muy débil. Intente nuevamente");
@@ -46,7 +45,5 @@ btnRegister.addEventListener('click',(e)=>{
             console.log("Ha ocurrido un error en la consulta al api");
             console.log(error);
         }
-
-        
     }
 })
