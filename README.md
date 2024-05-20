@@ -51,7 +51,7 @@ Seguido a esto para iniciar el servidor y poder probar los endpoint, se debe eje
 	npm run dev
 
 De esta forma se iniciará el servidor y ya podremos hacer las peticiones http desde la propia página web o desde Postman
-######2.1 Tecnologías usadas:
+###### 2.1 Tecnologías usadas:
 - Express: Establecer el servidor y los endpoint
 - Cors: Seguridad en los dominios para las peticiones http
 - Dotenv: Establecer variables de entorno
